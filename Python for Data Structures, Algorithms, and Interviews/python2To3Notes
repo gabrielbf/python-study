@@ -1,0 +1,38 @@
+Python 2 -> Python 3
+
+Unpacking
+valores = ("steve", "Hammond", 34, "England", "outro")
+nome, *misc, outro = valores
+
+Enums
+class Exemplo(enum):
+	valor1 = "1"
+	valor2 = "2"
+
+Divisao
+Agora é true float
+// operador floor integer division
+
+Encadeando Exceções
+String são unicode
+
+Formatted string literal
+	nome = "Gabriel"
+	msg = f"{nome}, bem vindo!"
+	pode ter expressão dentro do {}
+	.format()
+
+
+Imports
+from . import util
+
+Python Underscore
+_ indica privado
+__ "dunder" é interpretado
+   muda nome para evitar colisões com subclasses. Name mangling
+
+t = Test()
+t.foo
+t._bar
+t._Test__bar -> Ideia ruim; muda com nome classe
+t.__baz Não funciona

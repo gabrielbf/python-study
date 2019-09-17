@@ -1,0 +1,4 @@
+Python Async, Coroutine:
+
+def async = make function coroutine
+await = give up control to another coroutine until waited is complete then comeback when given a chance (when running coroutine calls await or completes)
